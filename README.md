@@ -5,6 +5,9 @@ A - What is the main functionality of the browser?
 
 Explanation – The main functionality of browser is to read the requested HTML-document and render it into the webpage, to render HTML-document into webpage browser go through the sequence of processes as follows.
 
+![broserworkflow](https://user-images.githubusercontent.com/100768787/213910713-f218e3b9-121f-4457-a2ad-4bc7801a5cbb.png)
+
+
 
 
 B - High Level Components of a browser.
