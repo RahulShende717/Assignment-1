@@ -31,13 +31,14 @@ Explanation C - The responsibility of the rendering engine is well... Rendering,
 D - Parsers (HTML, CSS, etc)
 Explanation D - a parser is a program, usually part of a compiler, that receives input in the form of sequential source program instructions, interactive online commands, markup tags, or some other defined interface and breaks them up into parts that can be used by other components in programming. Parsers usually divide the work between two components: the lexer (sometimes called tokenizer) that is responsible for breaking the input into valid tokens, and the parser that is responsible for constructing the parse tree by analyzing the document structure according to the language syntax rules. The lexer knows how to strip irrelevant characters like white spaces and line breaks.
 
-
+![parser](https://user-images.githubusercontent.com/100768787/213911310-fc45e73a-e21d-4a59-b169-3dda0d43b7c6.png)
 
 E- Script Processors
-Explanation - The Script processor allows you to specify your own processor logic for a simple processor using JavaScript or Groovy. The script is entered as an option on the script processor. use Use the script processor to define some simple processing logic that cannot be achieved easily using any of the provided processors.
+Explanation - The Script processor allows you to specify your own processor logic for a simple processor using JavaScript . The script is entered as an option on the script processor. use Use the script processor to define some simple processing logic that cannot be achieved easily using any of the provided processors.
 
 F - Tree construction
 Explanation – Rendering process has three tree construction first is DOM Tree then CSSOM Tree then Render Tree which consist of DOM and CSSOM Trees. DOM Tree – When the browser reads HTML code, whenever it encounters an HTML element like html, body, div etc., it creates a JavaScript object called a Node. Eventually, all HTML elements will be converted to JavaScript objects. After the browser has created Nodes from the HTML document, it has to create a tree-like structure of these node objects. Since our HTML elements in the HTML file are nested inside each other, the browser needs to replicate that but using Node objects it has previously created. This will help the browser efficiently render and manage the webpage throughout its lifecycle.
+![domtree](https://user-images.githubusercontent.com/100768787/213911299-1698810b-433e-49b9-a544-9b4c8574e865.png)
 
 
 
