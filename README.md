@@ -26,6 +26,7 @@ Data storage. This is a persistence layer. The browser may need to save all sort
 C - Rendering engine and its use.
 Explanation C - The responsibility of the rendering engine is well... Rendering, that is display of the requested contents on the browser screen. Rendering engine use: - By default, the rendering engine can display HTML and XML documents and images. It can display other types of data via plug-ins or extension; for example, displaying PDF documents using a PDF viewer plug-in. However, in this chapter we will focus on the main use case: displaying HTML and images that are formatted using CS
 
+![renderingEngine](https://user-images.githubusercontent.com/100768787/213911195-5499ad71-9353-47e6-95c2-8c250d95dec3.png)
 
 D - Parsers (HTML, CSS, etc)
 Explanation D - a parser is a program, usually part of a compiler, that receives input in the form of sequential source program instructions, interactive online commands, markup tags, or some other defined interface and breaks them up into parts that can be used by other components in programming. Parsers usually divide the work between two components: the lexer (sometimes called tokenizer) that is responsible for breaking the input into valid tokens, and the parser that is responsible for constructing the parse tree by analyzing the document structure according to the language syntax rules. The lexer knows how to strip irrelevant characters like white spaces and line breaks.
